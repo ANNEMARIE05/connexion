@@ -12,10 +12,11 @@ body{
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
-    box-shadow: 0 0 3px black;
+    box-shadow: 10px 0px 50px grey;
 }
 .card .card1{
     width: 50%;
+    height: 70vh
 }
 
 .card .card2{
@@ -26,9 +27,12 @@ body{
 .card1 img{
     width: 100%;
     height: 70vh;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 .connexion{
-    width: 85%;
+    width: 80%;
     height: 50vh;
     margin: 3rem auto;
     padding-top: 2rem;
@@ -74,4 +78,25 @@ body{
     border-radius: 5px;
     border: none;
     background-color: skyblue;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.connect{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.2rem;
+}
+.connect a {
+    text-decoration: none;
+    color: skyblue;
+}
+.check div{
+    color: skyblue;
+}
+.check a{
+    text-decoration: none;
+    color: #000;
 }
